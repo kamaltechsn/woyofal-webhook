@@ -1,0 +1,52 @@
+{
+  "name": "InfoCompteur",
+  "auto": true,
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Le compteur Woyofal est un compteur pr\u00e9pay\u00e9. Vous pouvez v\u00e9rifier votre solde, faire une recharge, ou signaler une panne."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "Informations sur mon compteur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    },
+    {
+      "data": [
+        {
+          "text": "Donne-moi les infos du compteur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    },
+    {
+      "data": [
+        {
+          "text": "C'est quoi un compteur Woyofal ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

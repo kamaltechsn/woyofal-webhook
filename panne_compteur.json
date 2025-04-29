@@ -1,0 +1,52 @@
+{
+  "name": "PanneCompteur",
+  "auto": true,
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Veuillez v\u00e9rifier que le compteur est bien aliment\u00e9. Sinon, contactez le service client ou demandez \u00e0 parler \u00e0 un agent."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "Mon compteur est en panne"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    },
+    {
+      "data": [
+        {
+          "text": "Il y a une panne"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    },
+    {
+      "data": [
+        {
+          "text": "Le compteur ne fonctionne plus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

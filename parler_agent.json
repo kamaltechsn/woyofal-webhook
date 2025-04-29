@@ -1,0 +1,52 @@
+{
+  "name": "ParlerAgent",
+  "auto": true,
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Un agent humain va vous r\u00e9pondre bient\u00f4t. Veuillez patienter ou appeler notre num\u00e9ro d\u2019assistance."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "Je veux parler \u00e0 un agent"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    },
+    {
+      "data": [
+        {
+          "text": "Agent humain"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    },
+    {
+      "data": [
+        {
+          "text": "Assistance humaine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

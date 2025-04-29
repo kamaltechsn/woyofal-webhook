@@ -1,0 +1,52 @@
+{
+  "name": "RechargeCompteur",
+  "auto": true,
+  "responses": [
+    {
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Pour recharger, entrez le code re\u00e7u apr\u00e8s achat dans le compteur. Achetez un code via Orange Money, Wave, ou un point de vente."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "Comment recharger mon compteur ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    },
+    {
+      "data": [
+        {
+          "text": "Je veux faire une recharge"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    },
+    {
+      "data": [
+        {
+          "text": "Recharger Woyofal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "fr"
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}
